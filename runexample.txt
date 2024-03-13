@@ -1,3 +1,1 @@
-docker run  --rm --volume=$(pwd)/images:/my-images stefans-bildconverter  -resize 100 test.jpg testsmall.jpg 
-
-docker run --entrypoint=/bin/bash --it   --rm --volume=$(pwd)/images:/my-images stefans-bildconverter  
+docker run  --rm --volume=$(pwd)/filer:/myfiles stefansgrep -n "32" a.txt
